@@ -20,8 +20,3 @@ node* bubble_sort(node* pos);
 void split(node* source, node** frontRef, node** backRef);
 node* merge_sides(node* a, node* b);
 node* merge_sort(node** headRef);
-
-/*
-node* selectionSort(node* pos);
-node* front(node* pos, node* before, node* min);
-*/
