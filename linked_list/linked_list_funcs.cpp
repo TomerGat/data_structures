@@ -1,48 +1,5 @@
 #include "linked_list.h"
 
-/*
-node* selectionSort(node* pos)
-{
-	if (pos == nullptr)
-	{
-		return pos;
-	}
-	if (pos->next == nullptr)
-	{
-		return pos;
-	}
-
-	node* before = nullptr;
-	node* ptr = pos;
-	int smallest = pos->value;
-	while (ptr->next != nullptr)
-	{
-		if (ptr->next->value < smallest)
-		{
-			before = ptr;
-			smallest = ptr->next->value;
-		}
-		ptr = ptr->next;
-	}
-	if (before == nullptr)
-	{
-		return selectionSort(pos->next);
-	}
-	pos = front(pos, before, before->next);
-	return selectionSort(pos->next);
-
-
-}
-
-node* front(node* pos, node* before, node* min)
-{
-	before->next = min->next;
-	min->next = pos;
-	return min;
-}
-*/
-
-
 //print linked list
 void printLst(node* nd1)
 {
