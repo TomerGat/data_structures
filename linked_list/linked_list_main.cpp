@@ -1,7 +1,7 @@
 #include "linked_list.h"
 
 //main - driver program to test functions
-int nodemain() {
+int main() {
 	node n1;
 	node n2;
 	node n3;
